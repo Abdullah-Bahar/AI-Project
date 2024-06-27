@@ -1,0 +1,54 @@
+*******************  ORİJİNAL VERİNİN SÜTUNLARI *******************
+
+- S# (Serial Number) - Sıra Numarası						-> Silindi
+- Date - Tarih												-> Ayrıştırıldıktan sonra silindi
+- Islamic Date - İslami Tarih								-> Ayrıştırıldıktan sonra silindi
+- Blast Day Type - Patlama Gün Türü							-> En çok tekrar eden değeri null değerlere atadık
+- Holiday Type - Tatil Türü									-> Silindi
+- Time - Zaman												-> Silindi
+- City - Şehir												-> Buradaki değerleri düzeneldik
+- Latitude - Enlem											-> Silindi
+- Longitude - Boylam										-> Silindi
+- Province - İl												-> Buradaki değerleri düzenledik
+- Location - Konum											-> Silindi
+- Location Category - Konum Kategorisi						-> null değerlerini bilinmiyor olarak atadık
+- Location Sensitivity - Konum Hassasiyeti					-> null değerlere en çok tekrar eden değeri atadık
+- Open/Closed Space - Açık/Kapalı Alan						-> Boş değerler mod ile dolduruldu
+- Influencing Event/Event - Etkileyen Olay/Olay				-> Silindi
+- Target Type - Hedef Türü									-> null değerler için en çok tekrar eden ilk 3 tanesinden rastgele atama yaptık	
+- Targeted Sect if any - Hedef Alınan Mezhep (Eğer varsa)	-> Silindi
+- Killed Min - Ölenler (Minimum)							-> null değerleri ortalama ile doldurduk
+- Killed Max - Ölenler (Maksimum)							-> null değerleri ortalama ile doldurduk
+- Injured Min - Yaralılar (Minimum)							-> null değerleri ortalama ile doldurduk
+- Injured Max - Yaralılar (Maksimum)						-> null değerleri ortalama ile doldurduk
+- No. of Suicide Blasts - İntihar Bombalamalarının Sayısı	-> null değerleri ortalama ile doldurduk
+- Explosive Weight (max) - Patlayıcı Ağırlığı (maksimum) 	-> Silindi
+- Hospital Names - Hastane Adları						 	-> Silindi
+- Temperature(C) - Sıcaklık (Celsius)						-> Silindi
+- Temperature(F) - Sıcaklık (Fahrenheit)					-> Sİlindi
+
+
+----------------------------------------------------------------------
+
+*******************  TEMİZLENDİKTEN SONRAKİ VERİNİN SÜTUNLARI *******************
+
++ 'Latitude'
++ 'Longitude'
++ 'Killed Min'
++ 'Killed Max'
++ 'Injured Min'
++ 'Injured Max'
++ 'No. of Suicide Blasts'
++ 'Year'
++ 'Month'
++ 'Day'
++ 'Islamic Year'
++ 'Islamic Month'
++ 'Islamic Day'
++ 'Blast Day Type Num'
++ 'City Num'
++ 'Province Num'
++ 'Location Category Num'
++ 'Location Sensitivity Num'
++ 'Open/Closed Space Num'
++ 'Target Type Num'
